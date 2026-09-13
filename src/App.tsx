@@ -157,6 +157,11 @@ export default function App() {
     return () => observer.disconnect()
   }, [])
 
+  const scrollToTop = (e: React.MouseEvent) => {
+    e.preventDefault()
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
+
   const scrollToSection = (e: React.MouseEvent, id: string) => {
     e.preventDefault()
     const el = document.getElementById(id)
@@ -405,6 +410,7 @@ export default function App() {
             <a
               className="logo"
               href="#top"
+              onClick={scrollToTop}
               aria-label="Rohan Parajuli, back to top"
             >
               <img
