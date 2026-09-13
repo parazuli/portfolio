@@ -207,7 +207,7 @@ export default function App() {
       id: "livora",
       title: "Livora",
       meta: "Blood donation & bank web app",
-      year: "2025",
+      year: "2026",
       tag: "Self-directed practice",
       chip: "chip-outline",
       practice: true,
@@ -222,7 +222,7 @@ export default function App() {
       id: "nabil-bank",
       title: "Nabil Bank",
       meta: "Mobile banking app UI redesign",
-      year: "2025",
+      year: "2026",
       tag: "Self-directed practice",
       chip: "chip-outline",
       practice: true,
@@ -540,7 +540,7 @@ export default function App() {
                 <div className="work-card enter-stack">
                   <div className="work-card-head">
                     <h2>Selected work</h2>
-                    <span>2025-2026</span>
+                    <span>2026</span>
                   </div>
                   {projects.map((p) => {
                     const isFeatured = p.id === featuredProject.id
@@ -552,9 +552,6 @@ export default function App() {
                         <span className="wrow-text">
                           <span className="wrow-title">{p.title}</span>
                           <span className="wrow-meta">{p.meta}</span>
-                        </span>
-                        <span className="wrow-chip">
-                          <span className={`chip ${p.chip}`}>{p.tag}</span>
                         </span>
                       </>
                     )

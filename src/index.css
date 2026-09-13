@@ -450,9 +450,6 @@ body.nav-open,body.cs-open {
 .wrow.feat .wrow-meta {
   color:#6a6132
 }
-.wrow-chip {
-  flex:none
-}
 .chip {
   border-radius:var(--radius-full);
   letter-spacing:-.003em;
@@ -486,10 +483,6 @@ body.nav-open,body.cs-open {
 .chip-live {
   color:#276f3f;
   background:#2f9e511f
-}
-.wrow.feat .chip-solid {
-  background:var(--ink);
-  color:var(--feat-highlight)
 }
 .work-card-foot {
   border-top:1px solid var(--line);
