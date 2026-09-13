@@ -15,8 +15,8 @@
   --accent:#f6c39b;
   --accent-deep:#eda36c;
   --on-accent:#131313;
-  --feat-highlight:#fef7af;
-  --feat-highlight-deep:#f5ea8a;
+  --feat-highlight:#f6c39b;
+  --feat-highlight-deep:#eda36c;
   --black:#111110;
   --on-black:#f7f6f3;
   --radius-xl:32px;
@@ -452,33 +452,21 @@ body.nav-open,body.cs-open {
 }
 .chip {
   border-radius:var(--radius-full);
-  letter-spacing:-.003em;
+  letter-spacing:.02em;
+  text-transform:uppercase;
   white-space:nowrap;
   align-items:center;
   gap:6px;
-  height:24px;
-  backdrop-filter:blur(8px);
-  -webkit-backdrop-filter:blur(8px);
-  box-shadow:0 1px 3px -1px #7a441614,inset 0 1px 0 #ffffff59;
-  padding:0 11px;
-  font-size:12px;
-  font-weight:600;
+  height:26px;
+  box-shadow:var(--shadow-sm);
+  padding:0 13px;
+  font-size:11.5px;
+  font-weight:700;
   display:inline-flex
 }
-.chip-solid {
-  background:#f5ea8ae0;
-  border:1px solid #e6d15f80;
-  color:#3d3a10
-}
-.chip-quiet {
-  background:#fef7af52;
-  border:1px solid #f5ea8a73;
-  color:#6b6220
-}
-.chip-outline {
-  background:#fef7af21;
-  border:1.2px solid #f5ea8a52;
-  color:#7a7030
+.chip-solid,.chip-quiet,.chip-outline {
+  background:var(--accent);
+  color:var(--on-accent)
 }
 .chip-live {
   color:#276f3f;
@@ -826,12 +814,11 @@ section {
 .work-feature-body .label {
   border-radius:var(--radius-full);
   background:var(--feat-highlight);
-  backdrop-filter:blur(6px);
-  -webkit-backdrop-filter:blur(6px);
-  box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
+  box-shadow:var(--shadow-sm);
   height:30px;
   color:var(--on-accent);
   letter-spacing:.02em;
+  text-transform:uppercase;
   align-self:flex-start;
   align-items:center;
   padding:0 14px;
@@ -1039,9 +1026,7 @@ section {
 .panel-label {
   border-radius:var(--radius-full);
   background:var(--accent);
-  backdrop-filter:blur(6px);
-  -webkit-backdrop-filter:blur(6px);
-  box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
+  box-shadow:var(--shadow-sm);
   height:32px;
   color:var(--on-accent);
   letter-spacing:.06em;
@@ -1259,9 +1244,7 @@ footer {
 .cs-label {
   border-radius:var(--radius-full);
   background:var(--feat-highlight);
-  backdrop-filter:blur(6px);
-  -webkit-backdrop-filter:blur(6px);
-  box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
+  box-shadow:var(--shadow-sm);
   height:30px;
   color:var(--on-accent);
   letter-spacing:.06em;
