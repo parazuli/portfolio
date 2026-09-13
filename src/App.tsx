@@ -181,7 +181,7 @@ export default function App() {
       practice: false,
       headline: "Booking a flight shouldn't feel like three apps.",
       blurb:
-        "A self-directed audit of the national carrier's booking, check-in, and trip management flows — with a written problem statement, three rejected directions, and a documented iteration history.",
+        "A self-directed audit of the national carrier's booking, check-in, and trip management flows, with a written problem statement, three rejected directions, and a documented iteration history.",
       short: "A self-directed audit of a national carrier's booking flow.",
       img: nepalAirlinesImg,
       alt: "The Nepal Airlines website redesign, shown on a laptop with the homepage hero and flight search panel",
@@ -191,13 +191,13 @@ export default function App() {
     {
       id: "ideax",
       title: "IdeaX 2026",
-      meta: "Hackathon design lead — website, brand & social",
+      meta: "Hackathon design lead: website, brand & social",
       year: "2026",
       tag: "Hackathon",
       chip: "chip-quiet",
       practice: false,
       blurb:
-        "Ran design for MBMC IdeaX 2026 end to end — the event website, the visual identity, and every social post, banner, and poster that carried it. Not a submission: the design behind the event itself.",
+        "Ran design for MBMC IdeaX 2026 end to end: the event website, the visual identity, and every social post, banner, and poster that carried it. Not a submission. The design behind the event itself.",
       img: ideaxWebImg,
       alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
@@ -212,7 +212,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "A blood bank concept built around one job: get a donor and a recipient matched fast. Search, request, and donate flows designed from a blank page — UI and UX both mine.",
+        "A blood bank concept built around one job: get a donor and a recipient matched fast. Search, request, and donate flows designed from a blank page, with UI and UX both mine.",
       img: livoraWebappImg,
       alt: "The Livora blood bank web app, showing the landing page and sign-in panel",
       logo: livoraLogo,
@@ -227,7 +227,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "Rebuilt Nabil Bank's everyday screens — splash, login, dashboard, fingerprint check, QR pay — around a calmer, card-based layout that gets out of the way faster.",
+        "Rebuilt Nabil Bank's everyday screens (splash, login, dashboard, fingerprint check, QR pay) around a calmer, card-based layout that gets out of the way faster.",
       img: nabilBankImg,
       alt: "Mobile app design mockups for a Nabil Bank banking app UI redesign, including splash, login, home, and scan-to-pay screens",
       logo: nabilLogo,
@@ -359,7 +359,7 @@ export default function App() {
     {
       num: "01",
       title: "Discover",
-      text: "Audit the brief, the users, and the existing systems — the way I broke down Nepal Airlines' three disconnected booking flows before sketching anything.",
+      text: "Audit the brief, the users, and the existing systems, the way I broke down Nepal Airlines' three disconnected booking flows before sketching anything.",
     },
     {
       num: "02",
@@ -501,7 +501,7 @@ export default function App() {
                   className="hero-sub enter-fade"
                   style={{ "--d": ".46s" } as React.CSSProperties}
                 >
-                  {"I'm"} Rohan Parajuli — a UI/UX and graphic designer in
+                  {"I'm"} Rohan Parajuli, a UI/UX and graphic designer in
                   Kathmandu, Nepal. I audit real systems, sketch the directions
                   nobody asked for, and design interfaces that are easy to scan
                   and act on.
@@ -540,7 +540,7 @@ export default function App() {
                 <div className="work-card enter-stack">
                   <div className="work-card-head">
                     <h2>Selected work</h2>
-                    <span>2025 — 2026</span>
+                    <span>2025-2026</span>
                   </div>
                   {projects.map((p) => {
                     const isFeatured = p.id === featuredProject.id
@@ -633,7 +633,7 @@ export default function App() {
                 <img src={rohanHeadshot} alt="Rohan Parajuli" />
                 <figcaption className="about-photo-chip">
                   <span className="dot" aria-hidden="true" />
-                  Kathmandu, Nepal — open to work
+                  Kathmandu, Nepal · open to work
                 </figcaption>
               </figure>
               <div
@@ -688,7 +688,7 @@ export default function App() {
                 <h2>Selected work</h2>
                 <p>
                   One full case study, one hackathon build, and two
-                  self-directed practice projects — labelled for what they
+                  self-directed practice projects, labelled for what they
                   actually are.
                 </p>
               </div>
@@ -785,8 +785,8 @@ export default function App() {
               <div className="section-head reveal">
                 <h2>What I do</h2>
                 <p>
-                  Four ways I usually get hired — across web, product, brand,
-                  and print.
+                  Four ways I usually get hired, across web, product, brand, and
+                  print.
                 </p>
               </div>
               <div className="tabs reveal" role="tablist" aria-label="Services">
@@ -857,7 +857,7 @@ export default function App() {
                 <h2>{"Let's"} work together</h2>
                 <p>
                   Have a project, a role, or a rough idea you want pulled into
-                  shape? Send it over — I read everything that lands.
+                  shape? Send it over. I read everything that lands.
                 </p>
                 <div className="contact-actions">
                   <a
