@@ -181,7 +181,7 @@ export default function App() {
       practice: false,
       headline: "Booking a flight shouldn't feel like three apps.",
       blurb:
-        "A self-directed audit of the national carrier's booking, check-in, and trip management flows, with a written problem statement, three rejected directions, and a documented iteration history.",
+        "An end to end audit of Nepal Airlines' booking flow, and a redesign direction that unifies three disconnected systems into one consistent experience.",
       short: "A self-directed audit of a national carrier's booking flow.",
       img: nepalAirlinesImg,
       alt: "The Nepal Airlines website redesign, shown on a laptop with the homepage hero and flight search panel",
@@ -197,7 +197,7 @@ export default function App() {
       chip: "chip-quiet",
       practice: false,
       blurb:
-        "End-to-end design for MBMC IdeaX 2026, from the visual identity and event website to the social media, banners, and posters. I built the visual system that carried the event across every touchpoint.",
+        "Led the visual direction, website interface, and brand identity for MBMC IdeaX 2026 across the website, social media, and print material.",
       img: ideaxWebImg,
       alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
@@ -212,7 +212,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "Designed a blood bank platform from the ground up, built to make it faster and easier to connect donors with recipients. I handled the whole experience: search, requests, and donation flows, plus the UI design and UX strategy behind it, from concept to final interface.",
+        "Designed a web app concept for Livora, a blood bank platform where people can donate, find donors, and get help faster.",
       img: livoraWebappImg,
       alt: "The Livora blood bank web app, showing the landing page and sign-in panel",
       logo: livoraLogo,
@@ -227,7 +227,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "Reimagined Nabil Bank's everyday banking experience around a calmer, card-based interface, simplifying the hierarchy and key interactions so everyday tasks feel clearer, faster, and more effortless.",
+        "Redesigned Nabil Bank's everyday screens, from splash to login to scan to pay, into a calmer, card-based layout.",
       img: nabilBankImg,
       alt: "Mobile app design mockups for a Nabil Bank banking app UI redesign, including splash, login, home, and scan-to-pay screens",
       logo: nabilLogo,
