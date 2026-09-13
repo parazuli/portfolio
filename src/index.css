@@ -1,4 +1,4 @@
-@import "https://api.fontshare.com/v2/css?f[]=satoshi@400,401,500,700,701,900,901&display=swap";
+@import "https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap";
 @import "tailwindcss";
 
 :root {
@@ -348,18 +348,13 @@ body.nav-open,body.cs-open {
   min-width:0
 }
 .hero h1 {
-  letter-spacing:-.03em;
-  text-transform:uppercase;
-  font-size:clamp(50px,6.6vw,96px);
-  font-style:italic;
-  font-weight:900;
-  line-height:1.04
+  letter-spacing:-.035em;
+  font-size:clamp(42px,5vw,70px);
+  line-height:1.16
 }
 .hero h1 .line {
   padding-bottom:.1em;
   margin-bottom:-.1em;
-  padding-right:.12em;
-  margin-right:-.12em;
   display:block;
   overflow:hidden
 }
@@ -1638,7 +1633,7 @@ footer {
     padding:120px 0 44px
   }
   .hero h1 {
-    font-size:46px
+    font-size:38px
   }
   .hero-name {
     letter-spacing:.1em;
