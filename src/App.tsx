@@ -643,27 +643,27 @@ export default function App() {
                   feedback, and refine every detail until it earns its place on
                   the screen.
                 </p>
-                <div className="about-facts">
-                  <div className="fact">
-                    <span className="k">Based in</span>
-                    <span className="v">Kathmandu, NP</span>
-                  </div>
-                  <div className="fact">
-                    <span className="k">Focus</span>
-                    <span className="v">UI/UX · Product · Brand</span>
-                  </div>
-                  <div className="fact">
-                    <span className="k">Availability</span>
-                    <span className="v">Freelance & contract</span>
-                  </div>
-                  <div className="fact">
-                    <span className="k">Projects on this site</span>
-                    <span className="v">
-                      <span className="tally" ref={statRef}>
-                        {String(projectCount).padStart(2, "0")}
-                      </span>
+              </div>
+              <div className="about-facts reveal">
+                <div className="fact">
+                  <span className="k">Based in</span>
+                  <span className="v">Kathmandu, NP</span>
+                </div>
+                <div className="fact">
+                  <span className="k">Focus</span>
+                  <span className="v">UI/UX · Product · Brand</span>
+                </div>
+                <div className="fact">
+                  <span className="k">Availability</span>
+                  <span className="v">Freelance & contract</span>
+                </div>
+                <div className="fact">
+                  <span className="k">Projects on this site</span>
+                  <span className="v">
+                    <span className="tally" ref={statRef}>
+                      {String(projectCount).padStart(2, "0")}
                     </span>
-                  </div>
+                  </span>
                 </div>
               </div>
             </section>
