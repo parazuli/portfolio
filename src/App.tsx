@@ -559,14 +559,9 @@ export default function App() {
                       </>
                     )
                     return isFeatured ? (
-                      <button
-                        key={p.id}
-                        type="button"
-                        className="wrow feat clickable"
-                        onClick={() => setCsOpen(true)}
-                      >
+                      <div key={p.id} className="wrow feat">
                         {rowBody}
-                      </button>
+                      </div>
                     ) : (
                       <div key={p.id} className="wrow">
                         {rowBody}

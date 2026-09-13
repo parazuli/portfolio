@@ -408,13 +408,6 @@ body.nav-open,body.cs-open {
 .wrow.feat {
   background:var(--feat-highlight)
 }
-.wrow.clickable:hover {
-  background:var(--bg-soft);
-  transform:translate(2px)
-}
-.wrow.feat.clickable:hover {
-  background:var(--feat-highlight-deep)
-}
 .wrow-thumb {
   background:var(--card);
   border:1px solid var(--line);
@@ -509,17 +502,17 @@ body.nav-open,body.cs-open {
   z-index:3;
   background:var(--card);
   border-radius:var(--radius-lg);
-  width:min(258px,70%);
+  width:min(272px,72%);
   box-shadow:var(--shadow-float);
   transition:transform .6s var(--ease);
   padding:14px;
   position:absolute;
-  bottom:-168px;
-  left:-64px;
-  transform:rotate(-3.2deg)
+  bottom:-96px;
+  right:-56px;
+  transform:none
 }
 .case-peek:hover {
-  transform:rotate(0)translateY(-4px)
+  transform:translateY(-4px)
 }
 .case-peek-img {
   aspect-ratio:16/10;
