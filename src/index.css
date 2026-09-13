@@ -414,15 +414,19 @@ body.nav-open,body.cs-open {
   background:var(--accent-deep)
 }
 .wrow-thumb {
-  background:var(--bg-warm);
+  background:var(--card);
+  border:1px solid var(--line);
   border-radius:14px;
   flex:none;
+  place-items:center;
   width:48px;
   height:48px;
+  padding:8px;
+  display:grid;
   overflow:hidden
 }
 .wrow-thumb img {
-  object-fit:cover;
+  object-fit:contain;
   width:100%;
   height:100%
 }
