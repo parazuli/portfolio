@@ -528,13 +528,6 @@ export default function App() {
                     Get in touch
                   </a>
                 </div>
-                <p
-                  className="hero-meta enter-fade"
-                  style={{ "--d": ".66s" } as React.CSSProperties}
-                >
-                  <span className="dot" aria-hidden="true" />
-                  Available for freelance projects and full-time roles
-                </p>
               </div>
               <div className="hero-stack">
                 <div className="work-card enter-stack">

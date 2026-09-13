@@ -355,21 +355,6 @@ body.nav-open,body.cs-open {
   margin-top:44px;
   display:flex
 }
-.hero-meta {
-  color:var(--faint);
-  align-items:center;
-  gap:12px;
-  margin-top:40px;
-  font-size:15px;
-  display:flex
-}
-.hero-meta .dot {
-  background:#2f9e51;
-  border-radius:50%;
-  width:8px;
-  height:8px;
-  box-shadow:0 0 0 4px #2f9e5124
-}
 .hero-stack {
   min-height:520px;
   position:relative
