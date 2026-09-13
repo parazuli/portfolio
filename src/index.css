@@ -12,8 +12,8 @@
   --faint:#696660;
   --line:#13131317;
   --line-strong:#13131329;
-  --accent:#f7ec9b;
-  --accent-deep:#efdc68;
+  --accent:#faf3d3;
+  --accent-deep:#f0e3ad;
   --on-accent:#131313;
   --black:#111110;
   --on-black:#f7f6f3;
@@ -891,6 +891,10 @@ section {
   padding:20px 10px 8px;
   display:flex
 }
+.work-tile-body .chip {
+  align-self:flex-start;
+  margin-bottom:14px
+}
 .work-tile-body h3 {
   font-size:20px
 }
@@ -900,13 +904,6 @@ section {
   margin-top:8px;
   font-size:15px;
   line-height:1.55
-}
-.work-tile-foot {
-  justify-content:space-between;
-  align-items:center;
-  gap:12px;
-  margin-top:20px;
-  display:flex
 }
 .work-note {
   text-align:center;

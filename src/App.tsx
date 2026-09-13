@@ -742,12 +742,11 @@ export default function App() {
                       <img src={p.img} alt={p.alt} loading="lazy" />
                     </div>
                     <div className="work-tile-body">
+                      <span className={`chip ${p.chip}`}>
+                        {p.tag} · {p.year}
+                      </span>
                       <h3>{p.title}</h3>
                       <p>{p.blurb}</p>
-                      <div className="work-tile-foot">
-                        <span className={`chip ${p.chip}`}>{p.tag}</span>
-                        <span className="chip chip-quiet">{p.year}</span>
-                      </div>
                     </div>
                   </article>
                 ))}
