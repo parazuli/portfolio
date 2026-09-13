@@ -699,23 +699,23 @@ export default function App() {
                 <div className="work-feature-body">
                   <p className="work-feature-name">{featuredProject.title}</p>
                   <h3>{featuredProject.headline}</h3>
+                  <p>{featuredProject.blurb}</p>
                   <div className="work-feature-foot-row">
-                    <p>{featuredProject.blurb}</p>
+                    <button
+                      className="link-action"
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        setCsOpen(true)
+                      }}
+                    >
+                      Read the case study
+                      <span className="circle">
+                        <ArrowRight strokeWidth={2} />
+                      </span>
+                    </button>
                     <span className="label">{featuredProject.tag}</span>
                   </div>
-                  <button
-                    className="link-action"
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      setCsOpen(true)
-                    }}
-                  >
-                    Read the case study
-                    <span className="circle">
-                      <ArrowRight strokeWidth={2} />
-                    </span>
-                  </button>
                 </div>
               </article>
               <div className="work-grid">
@@ -737,8 +737,8 @@ export default function App() {
                     </div>
                     <div className="work-tile-body">
                       <h3>{p.title}</h3>
+                      <p>{p.blurb}</p>
                       <div className="work-tile-foot-row">
-                        <p>{p.blurb}</p>
                         <span className={`chip ${p.chip}`}>{p.tag}</span>
                       </div>
                     </div>
