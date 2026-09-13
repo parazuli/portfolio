@@ -870,6 +870,13 @@ section {
 .work-tile:hover .work-tile-img img {
   transform:scale(1.05)
 }
+.work-tile-img.tile-top img {
+  object-position:center top;
+  transform:scale(1.08)
+}
+.work-tile:hover .work-tile-img.tile-top img {
+  transform:scale(1.13)
+}
 .work-tile-body {
   flex-direction:column;
   flex:1;
@@ -998,6 +1005,10 @@ section {
   height:100%;
   position:absolute;
   inset:0
+}
+.panel-media.media-top img {
+  object-position:center top;
+  transform:scale(1.08)
 }
 .panel-body {
   flex-direction:column;

@@ -733,7 +733,11 @@ export default function App() {
                     }`}
                     style={{ "--delay": `${i * 0.07}s` } as React.CSSProperties}
                   >
-                    <div className="work-tile-img">
+                    <div
+                      className={`work-tile-img${
+                        p.id === "ideax" ? " tile-top" : ""
+                      }`}
+                    >
                       <img src={p.img} alt={p.alt} loading="lazy" />
                     </div>
                     <div className="work-tile-body">
@@ -819,7 +823,11 @@ export default function App() {
                     }`}
                   >
                     <div className="panel-grid">
-                      <div className="panel-media">
+                      <div
+                        className={`panel-media${
+                          s.id === "web" ? " media-top" : ""
+                        }`}
+                      >
                         <img src={s.img} alt={s.alt} loading="lazy" />
                       </div>
                       <div className="panel-body">
