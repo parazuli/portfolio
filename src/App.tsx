@@ -14,7 +14,7 @@ import {
   Mail,
 } from "lucide-react"
 import ideaxWebImg from "@/imports/ideax_web.webp"
-import rohanHeadshot from "@/imports/rohan-headshot.webp"
+import aboutIllustration from "@/imports/about-illustration.webp"
 import nepalAirlinesImg from "@/imports/nepal-airlines.webp"
 import livoraWebappImg from "@/imports/livora-webapp.webp"
 import nabilBankImg from "@/imports/nabil-bank.webp"
@@ -616,7 +616,11 @@ export default function App() {
             {/* ── About ── */}
             <section id="about" className="about">
               <figure className="about-photo reveal">
-                <img src={rohanHeadshot} alt="Rohan Parajuli" />
+                <img
+                  src={aboutIllustration}
+                  alt="Illustration of Rohan Parajuli at his desk, sketching interface designs on a tablet"
+                  loading="lazy"
+                />
               </figure>
               <div
                 className="about-copy reveal"
