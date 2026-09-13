@@ -184,7 +184,7 @@ export default function App() {
         "A self-directed audit of the national carrier's booking, check-in, and trip management flows — with a written problem statement, three rejected directions, and a documented iteration history.",
       short: "A self-directed audit of a national carrier's booking flow.",
       img: nepalAirlinesImg,
-      alt: "The Nepal Airlines website redesign, showing the homepage hero and flight search panel",
+      alt: "The Nepal Airlines website redesign, shown on a laptop with the homepage hero and flight search panel",
       logo: nepalAirlinesLogo,
       logoAlt: "Nepal Airlines logo",
     },
