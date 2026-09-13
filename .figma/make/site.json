@@ -1,6 +1,9 @@
 {
-  "title": "Rohan Parajuli | UI/UX & Graphic Designer",
+  "title": "UI/UX Designer | Rohan Parajuli",
   "description": "Rohan Parajuli is a UI/UX and graphic designer in Kathmandu, Nepal, designing web, product, and brand experiences that turn complicated problems into interfaces people can actually use.",
+  "icons": {
+    "icon": "/favicon.png"
+  },
   "robots": {
     "index": true
   },
