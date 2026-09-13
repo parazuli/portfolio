@@ -208,7 +208,7 @@ export default function App() {
       title: "Livora",
       meta: "Blood donation & bank web app",
       year: "2026",
-      tag: "Self-directed practice",
+      tag: "Personal",
       chip: "chip-outline",
       practice: true,
       blurb:
@@ -223,7 +223,7 @@ export default function App() {
       title: "Nabil Bank",
       meta: "Mobile banking app UI redesign",
       year: "2026",
-      tag: "Self-directed practice",
+      tag: "Personal",
       chip: "chip-outline",
       practice: true,
       blurb:
