@@ -197,7 +197,7 @@ export default function App() {
       chip: "chip-quiet",
       practice: false,
       blurb:
-        "Design lead for MBMC IdeaX 2026 — not a participant, but the person running design for the event itself: the website UI, brand system, social media posts, banners, and posters, end to end.",
+        "Ran design for MBMC IdeaX 2026 end to end — the event website, the visual identity, and every social post, banner, and poster that carried it. Not a submission: the design behind the event itself.",
       img: ideaxWebImg,
       alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
@@ -212,7 +212,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "A conceptual blood bank web app where donors and recipients can find and give blood quickly and efficiently — UI and UX designed end to end.",
+        "A blood bank concept built around one job: get a donor and a recipient matched fast. Search, request, and donate flows designed from a blank page — UI and UX both mine.",
       img: livoraWebappImg,
       alt: "The Livora blood bank web app, showing the landing page and sign-in panel",
       logo: livoraLogo,
@@ -227,7 +227,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "A UI redesign concept for Nabil Bank's mobile banking app — splash screen, login, dashboard, fingerprint verification, and QR scan-to-pay, rebuilt with a cleaner, card-based layout.",
+        "Rebuilt Nabil Bank's everyday screens — splash, login, dashboard, fingerprint check, QR pay — around a calmer, card-based layout that gets out of the way faster.",
       img: nabilBankImg,
       alt: "Mobile app design mockups for a Nabil Bank banking app UI redesign, including splash, login, home, and scan-to-pay screens",
       logo: nabilLogo,
