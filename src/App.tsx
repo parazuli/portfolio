@@ -599,7 +599,6 @@ export default function App() {
 
             {/* ── Tools ── */}
             <div className="marquee-wrap reveal">
-              <p className="marquee-caption">The tools I work in every day</p>
               <div
                 className="marquee"
                 aria-label="Tools: Figma, Photoshop, Illustrator, Claude, ChatGPT, InDesign, and Stitch AI"
