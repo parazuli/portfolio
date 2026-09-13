@@ -33,9 +33,6 @@
 }
 
 
-body {
-  overflow-x:hidden
-}
 .page {
   z-index:1;
   position:relative
@@ -331,23 +328,20 @@ body.nav-open,body.cs-open {
 }
 .hero:before {
   content:"";
-  background-image:repeating-linear-gradient(90deg,var(--bg) 0,var(--bg-warm) 90px,var(--bg) 180px);
+  background-image:repeating-linear-gradient(90deg,transparent 0 159px,#1313130a 159px 160px);
   z-index:0;
   position:absolute;
-  top:-186px;
-  bottom:-120px;
-  left:calc(50% - 50vw);
-  right:calc(50% - 50vw);
+  inset:0;
   pointer-events:none
 }
 .hero:after {
   content:"";
-  background:var(--ink);
-  width:2px;
+  background:#13131324;
+  width:1px;
   z-index:0;
   position:absolute;
-  top:-186px;
-  bottom:-120px;
+  top:0;
+  bottom:0;
   left:4%;
   pointer-events:none
 }
