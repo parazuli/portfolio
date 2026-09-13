@@ -174,25 +174,23 @@ header {
   align-items:center;
   gap:40px;
   max-width:100%;
-  padding:8px 8px 8px 26px;
+  padding:8px 8px 8px 20px;
   display:flex
 }
 header.scrolled .nav-pill {
   box-shadow:0 20px 46px -18px #28221657,0 3px 10px -4px #28221624
 }
 .logo {
-  letter-spacing:-.03em;
   color:var(--ink);
+  flex:none;
   align-items:center;
-  gap:10px;
-  font-size:18px;
-  font-weight:700;
   display:inline-flex
 }
 .logo-mark {
   flex:none;
   width:auto;
-  height:24px
+  height:30px;
+  display:block
 }
 .site-nav {
   align-items:center;
@@ -1465,7 +1463,7 @@ footer {
     justify-content:space-between;
     gap:18px;
     width:100%;
-    padding:8px 8px 8px 22px
+    padding:8px 8px 8px 18px
   }
   header {
     padding-inline:20px

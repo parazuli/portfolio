@@ -414,7 +414,6 @@ export default function App() {
                 alt=""
                 aria-hidden="true"
               />
-              Rohan Parajuli
             </a>
             <nav className="site-nav" aria-label="Sections">
               {["about", "work", "process"].map((id) => (
