@@ -466,19 +466,19 @@ body.nav-open,body.cs-open {
   display:inline-flex
 }
 .chip-solid {
-  background:#eda36ce0;
-  border:1px solid #d98a4f80;
-  color:#3d2410
+  background:#f5ea8ae0;
+  border:1px solid #e6d15f80;
+  color:#3d3a10
 }
 .chip-quiet {
-  background:#f6c39b52;
-  border:1px solid #eda36c73;
-  color:#7a4a24
+  background:#fef7af52;
+  border:1px solid #f5ea8a73;
+  color:#6b6220
 }
 .chip-outline {
-  background:#f6c39b21;
-  border:1.2px solid #eda36c52;
-  color:#8a6242
+  background:#fef7af21;
+  border:1.2px solid #f5ea8a52;
+  color:#7a7030
 }
 .chip-live {
   color:#276f3f;
