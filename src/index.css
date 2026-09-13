@@ -15,6 +15,8 @@
   --accent:#f6c39b;
   --accent-deep:#eda36c;
   --on-accent:#131313;
+  --feat-highlight:#fef7af;
+  --feat-highlight-deep:#f5ea8a;
   --black:#111110;
   --on-black:#f7f6f3;
   --radius-xl:32px;
@@ -404,14 +406,14 @@ body.nav-open,body.cs-open {
   margin-top:2px
 }
 .wrow.feat {
-  background:var(--accent)
+  background:var(--feat-highlight)
 }
 .wrow.clickable:hover {
   background:var(--bg-soft);
   transform:translate(2px)
 }
 .wrow.feat.clickable:hover {
-  background:var(--accent-deep)
+  background:var(--feat-highlight-deep)
 }
 .wrow-thumb {
   background:var(--card);
@@ -494,7 +496,7 @@ body.nav-open,body.cs-open {
 }
 .wrow.feat .chip-solid {
   background:var(--ink);
-  color:var(--accent)
+  color:var(--feat-highlight)
 }
 .work-card-foot {
   border-top:1px solid var(--line);
