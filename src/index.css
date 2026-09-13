@@ -1,4 +1,4 @@
-@import "https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap";
+@import "https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,701,900&display=swap";
 @import "tailwindcss";
 
 :root {
@@ -367,6 +367,10 @@ body.nav-open,body.cs-open {
   margin-top:30px;
   font-size:clamp(16.5px,1.15vw,18.5px);
   line-height:1.62
+}
+.hero-sub strong {
+  font-style:italic;
+  font-weight:700
 }
 .hero-actions {
   flex-wrap:wrap;

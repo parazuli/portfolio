@@ -498,10 +498,10 @@ export default function App() {
                   className="hero-sub enter-fade"
                   style={{ "--d": ".46s" } as React.CSSProperties}
                 >
-                  {"I'm"} Rohan Parajuli, a UI/UX and graphic designer in
-                  Kathmandu, Nepal. I audit real systems, sketch the directions
-                  nobody asked for, and design interfaces that are easy to scan
-                  and act on.
+                  {"I'm"} <strong>Rohan Parajuli</strong>, a UI/UX and graphic
+                  designer in Kathmandu, Nepal. I audit real systems, sketch the
+                  directions nobody asked for, and design interfaces that are
+                  easy to scan and act on.
                 </p>
                 <div
                   className="hero-actions enter-fade"
