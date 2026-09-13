@@ -361,17 +361,28 @@ body.nav-open,body.cs-open {
 .hero h1 .line>span {
   display:block
 }
-.hero-sub {
-  max-width:32rem;
-  color:var(--muted);
-  margin-top:30px;
-  font-size:clamp(16.5px,1.15vw,18.5px);
-  line-height:1.62
+.hero-name {
+  color:var(--ink);
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  align-items:center;
+  gap:16px;
+  margin-top:32px;
+  font-size:clamp(14px,1.1vw,17px);
+  font-weight:700;
+  display:flex
+}
+.hero-name:before {
+  content:"";
+  background:var(--ink);
+  flex:none;
+  width:52px;
+  height:2px
 }
 .hero-actions {
   flex-wrap:wrap;
   gap:14px;
-  margin-top:44px;
+  margin-top:40px;
   display:flex
 }
 .hero-stack {
@@ -1475,9 +1486,6 @@ footer {
     gap:64px;
     padding:150px 0 40px
   }
-  .hero-sub {
-    max-width:34rem
-  }
   .hero-stack {
     min-height:0
   }
@@ -1624,9 +1632,14 @@ footer {
   .hero h1 {
     font-size:38px
   }
-  .hero-sub {
-    margin-top:24px;
-    font-size:16px
+  .hero-name {
+    letter-spacing:.16em;
+    gap:12px;
+    margin-top:26px;
+    font-size:13px
+  }
+  .hero-name:before {
+    width:34px
   }
   .hero-actions {
     flex-direction:column;
