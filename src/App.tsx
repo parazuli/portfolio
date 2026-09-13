@@ -483,12 +483,17 @@ export default function App() {
                 <h1>
                   <span className="line">
                     <span style={{ "--d": ".15s" } as React.CSSProperties}>
-                      Rohan
+                      Design that makes
                     </span>
                   </span>
                   <span className="line">
                     <span style={{ "--d": ".24s" } as React.CSSProperties}>
-                      Parajuli
+                      complicated things
+                    </span>
+                  </span>
+                  <span className="line">
+                    <span style={{ "--d": ".33s" } as React.CSSProperties}>
+                      feel obvious.
                     </span>
                   </span>
                 </h1>
@@ -496,7 +501,7 @@ export default function App() {
                   className="hero-name enter-fade"
                   style={{ "--d": ".46s" } as React.CSSProperties}
                 >
-                  Design that makes complicated things feel obvious.
+                  Rohan Parajuli
                 </p>
                 <div
                   className="hero-actions enter-fade"

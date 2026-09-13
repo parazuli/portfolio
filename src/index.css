@@ -362,16 +362,14 @@ body.nav-open,body.cs-open {
   display:block
 }
 .hero-name {
-  max-width:30rem;
   color:var(--ink);
-  letter-spacing:.14em;
+  letter-spacing:.22em;
   text-transform:uppercase;
-  align-items:flex-start;
+  align-items:center;
   gap:16px;
   margin-top:32px;
-  font-size:clamp(13px,1vw,15px);
+  font-size:clamp(14px,1.1vw,17px);
   font-weight:700;
-  line-height:1.7;
   display:flex
 }
 .hero-name:before {
@@ -379,8 +377,7 @@ body.nav-open,body.cs-open {
   background:var(--ink);
   flex:none;
   width:52px;
-  height:2px;
-  margin-top:.78em
+  height:2px
 }
 .hero-actions {
   flex-wrap:wrap;
@@ -1636,13 +1633,13 @@ footer {
     font-size:38px
   }
   .hero-name {
-    letter-spacing:.1em;
+    letter-spacing:.16em;
     gap:12px;
     margin-top:26px;
-    font-size:12px
+    font-size:13px
   }
   .hero-name:before {
-    width:28px
+    width:34px
   }
   .hero-actions {
     flex-direction:column;
