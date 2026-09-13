@@ -676,10 +676,13 @@ section {
 }
 .about {
   grid-template-columns:1fr 1fr;
-  align-items:center;
+  align-items:start;
   gap:64px;
   padding:110px 0;
   display:grid
+}
+.about-photo {
+  margin-top:12px
 }
 .about-photo img {
   width:100%;
@@ -1489,7 +1492,7 @@ footer {
   }
   .about-photo {
     max-width:640px;
-    margin-inline:auto
+    margin:0 auto
   }
   .work-feature {
     grid-template-columns:1fr
