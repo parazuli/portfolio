@@ -739,6 +739,12 @@ export default function App() {
                       <h3>{p.title}</h3>
                       <p>{p.blurb}</p>
                       <div className="work-tile-foot-row">
+                        <span className="link-action static">
+                          View work
+                          <span className="circle">
+                            <ArrowRight strokeWidth={2} />
+                          </span>
+                        </span>
                         <span className={`chip ${p.chip}`}>{p.tag}</span>
                       </div>
                     </div>

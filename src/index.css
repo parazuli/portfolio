@@ -145,6 +145,15 @@ main {
   color:var(--on-black);
   transform:translate(3px)
 }
+.link-action.static {
+  cursor:default
+}
+.link-action.static:hover .circle {
+  background:none;
+  border-color:var(--line-strong);
+  color:var(--ink);
+  transform:none
+}
 header {
   z-index:60;
   pointer-events:none;
@@ -452,15 +461,15 @@ body.nav-open,body.cs-open {
 }
 .chip {
   border-radius:var(--radius-full);
-  letter-spacing:.02em;
+  letter-spacing:.03em;
   text-transform:uppercase;
   white-space:nowrap;
   align-items:center;
   gap:6px;
-  height:26px;
+  height:22px;
   box-shadow:var(--shadow-sm);
-  padding:0 13px;
-  font-size:11.5px;
+  padding:0 12px;
+  font-size:10.5px;
   font-weight:700;
   display:inline-flex
 }
@@ -815,14 +824,14 @@ section {
   border-radius:var(--radius-full);
   background:var(--feat-highlight);
   box-shadow:var(--shadow-sm);
-  height:30px;
+  height:22px;
   color:var(--on-accent);
-  letter-spacing:.02em;
+  letter-spacing:.03em;
   text-transform:uppercase;
   flex:none;
   align-items:center;
-  padding:0 14px;
-  font-size:13px;
+  padding:0 12px;
+  font-size:10.5px;
   font-weight:700;
   display:inline-flex
 }
@@ -835,7 +844,8 @@ section {
 }
 .work-feature-body h3 {
   margin-top:6px;
-  font-size:clamp(26px,2.5vw,36px)
+  font-size:clamp(26px,2.5vw,36px);
+  font-weight:700
 }
 .work-feature-body p {
   color:var(--muted);
@@ -898,7 +908,8 @@ section {
   display:flex
 }
 .work-tile-body h3 {
-  font-size:20px
+  font-size:20px;
+  font-weight:700
 }
 .work-tile-body p {
   color:var(--muted);
@@ -908,7 +919,9 @@ section {
   line-height:1.55
 }
 .work-tile-foot-row {
-  justify-content:flex-end;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
   margin-top:14px;
   display:flex
 }
