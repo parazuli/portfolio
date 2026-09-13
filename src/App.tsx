@@ -199,7 +199,7 @@ export default function App() {
       blurb:
         "Brand identity and pitch collateral built for a hackathon — logo, type system, and the deck that carried it.",
       img: ideaxWebImg,
-      alt: "The IdeaX 2026 web design, shown as a full page layout",
+      alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
       logoAlt: "IdeaX 2026 logo",
     },
@@ -260,7 +260,7 @@ export default function App() {
         },
       ],
       img: ideaxWebImg,
-      alt: "A web design layout from the IdeaX project",
+      alt: "The IdeaX 2026 website design being reviewed on a tablet",
     },
     {
       id: "product",
