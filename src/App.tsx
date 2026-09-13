@@ -615,10 +615,6 @@ export default function App() {
             <section id="about" className="about">
               <figure className="about-photo reveal">
                 <img src={rohanHeadshot} alt="Rohan Parajuli" />
-                <figcaption className="about-photo-chip">
-                  <span className="dot" aria-hidden="true" />
-                  Kathmandu, Nepal · open to work
-                </figcaption>
               </figure>
               <div
                 className="about-copy reveal"
