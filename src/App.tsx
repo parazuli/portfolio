@@ -13,11 +13,11 @@ import {
   Menu,
   Mail,
 } from "lucide-react"
-import ideaxWebImg from "@/imports/ideax_web.png"
-import rohanHeadshot from "@/imports/rohan-headshot.png"
-import nepalAirlinesImg from "@/imports/nepal-airlines.png"
-import livoraWebappImg from "@/imports/livora-webapp.png"
-import nabilBankImg from "@/imports/nabil-bank.png"
+import ideaxWebImg from "@/imports/ideax_web.webp"
+import rohanHeadshot from "@/imports/rohan-headshot.webp"
+import nepalAirlinesImg from "@/imports/nepal-airlines.webp"
+import livoraWebappImg from "@/imports/livora-webapp.webp"
+import nabilBankImg from "@/imports/nabil-bank.webp"
 import nepalAirlinesLogo from "@/imports/nepal-airlines-logo.webp"
 import ideaxLogo from "@/imports/ideax-logo.png"
 import livoraLogo from "@/imports/livora-logo.png"
