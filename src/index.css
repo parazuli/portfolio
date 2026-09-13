@@ -323,23 +323,7 @@ body.nav-open,body.cs-open {
   align-items:center;
   gap:64px;
   padding:186px 0 120px;
-  position:relative;
   display:grid
-}
-.hero:before {
-  content:"";
-  background:radial-gradient(56% 50% at 16% 32%,#e6e0d4 0,#e6e0d400 70%),radial-gradient(52% 48% at 84% 58%,#efe7d9 0,#efe7d900 68%),radial-gradient(44% 40% at 52% 92%,#ece7dc 0,#ece7dc00 72%);
-  z-index:0;
-  position:absolute;
-  top:-140px;
-  bottom:-90px;
-  left:0;
-  right:0;
-  pointer-events:none
-}
-.hero-text,.hero-stack {
-  z-index:1;
-  position:relative
 }
 .hero>*,.about>*,.work-feature>*,.work-grid>*,.process-grid>*,.panel-grid>* {
   min-width:0
