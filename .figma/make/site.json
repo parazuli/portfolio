@@ -1,7 +1,8 @@
 {
-  "description": "Enhance user engagement with a sleek, animated black panel featuring rounded corners that smoothly appears in the About section as users scroll.",
+  "title": "Rohan Parajuli — UI/UX & Graphic Designer",
+  "description": "Rohan Parajuli is a UI/UX and graphic designer in Kathmandu, Nepal, designing web, product, and brand experiences that turn complicated problems into interfaces people can actually use.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
