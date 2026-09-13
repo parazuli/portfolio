@@ -331,9 +331,11 @@ body.nav-open,body.cs-open {
 .hero h1 {
   letter-spacing:-.035em;
   font-size:clamp(42px,5vw,70px);
-  line-height:1.02
+  line-height:1.16
 }
 .hero h1 .line {
+  padding-bottom:.1em;
+  margin-bottom:-.1em;
   display:block;
   overflow:hidden
 }
