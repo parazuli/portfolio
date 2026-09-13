@@ -704,10 +704,11 @@ export default function App() {
                   />
                 </div>
                 <div className="work-feature-body">
-                  <span className="label">
-                    {featuredProject.tag} · {featuredProject.year}
-                  </span>
+                  <span className="label">{featuredProject.tag}</span>
                   <h3>{featuredProject.headline}</h3>
+                  <span className="card-kicker">
+                    {featuredProject.meta} · {featuredProject.year}
+                  </span>
                   <p>{featuredProject.blurb}</p>
                   <button
                     className="link-action"
@@ -741,12 +742,12 @@ export default function App() {
                       <img src={p.img} alt={p.alt} loading="lazy" />
                     </div>
                     <div className="work-tile-body">
+                      <span className="card-badge">{p.tag}</span>
                       <h3>{p.title}</h3>
+                      <span className="card-kicker">
+                        {p.meta} · {p.year}
+                      </span>
                       <p>{p.blurb}</p>
-                      <div className="work-tile-foot">
-                        <span className={`chip ${p.chip}`}>{p.tag}</span>
-                        <span className="chip chip-quiet">{p.year}</span>
-                      </div>
                     </div>
                   </article>
                 ))}
@@ -983,6 +984,7 @@ export default function App() {
             <X strokeWidth={2} />
           </button>
           <span className="cs-label">Case study</span>
+          <p className="cs-project-name">Nepal Airlines</p>
           <h2 id="csTitle">
             Booking a flight {"shouldn't"} feel like three apps.
           </h2>

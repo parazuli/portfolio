@@ -828,9 +828,12 @@ section {
   margin-top:24px;
   font-size:clamp(26px,2.5vw,36px)
 }
+.work-feature-body .card-kicker {
+  margin-top:14px
+}
 .work-feature-body p {
   color:var(--muted);
-  margin-top:18px;
+  margin-top:14px;
   font-size:16.5px;
   line-height:1.65
 }
@@ -883,22 +886,41 @@ section {
   padding:20px 10px 8px;
   display:flex
 }
+.work-tile-body .card-badge {
+  margin-bottom:14px
+}
 .work-tile-body h3 {
   font-size:20px
+}
+.work-tile-body .card-kicker {
+  margin-top:8px
 }
 .work-tile-body p {
   color:var(--muted);
   flex:1;
-  margin-top:8px;
+  margin-top:10px;
   font-size:15px;
   line-height:1.55
 }
-.work-tile-foot {
-  justify-content:space-between;
+.card-badge {
+  border-radius:var(--radius-full);
+  background:var(--ink);
+  color:var(--on-black);
+  letter-spacing:.02em;
+  align-self:flex-start;
   align-items:center;
-  gap:12px;
-  margin-top:20px;
-  display:flex
+  padding:6px 13px;
+  font-size:11.5px;
+  font-weight:700;
+  display:inline-flex
+}
+.card-kicker {
+  color:var(--muted);
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  font-size:11px;
+  font-weight:700;
+  display:block
 }
 .work-note {
   text-align:center;
@@ -1246,8 +1268,16 @@ footer {
   font-weight:700;
   display:inline-flex
 }
+.cs-project-name {
+  margin-top:18px;
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  color:var(--ink)
+}
 .cs-panel h2 {
-  margin-top:26px;
+  margin-top:12px;
   font-size:clamp(30px,3.6vw,46px);
   line-height:1.06
 }
