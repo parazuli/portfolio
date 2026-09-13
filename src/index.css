@@ -12,8 +12,8 @@
   --faint:#696660;
   --line:#13131317;
   --line-strong:#13131329;
-  --accent:#f5e9a8;
-  --accent-deep:#ecd97a;
+  --accent:#f6c39b;
+  --accent-deep:#eda36c;
   --on-accent:#131313;
   --black:#111110;
   --on-black:#f7f6f3;
@@ -465,24 +465,28 @@ body.nav-open,body.cs-open {
   align-items:center;
   gap:6px;
   height:24px;
-  box-shadow:0 1px 2px -1px #28221614;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  box-shadow:0 1px 3px -1px #7a441614,inset 0 1px 0 #ffffff59;
   padding:0 11px;
   font-size:12px;
   font-weight:600;
   display:inline-flex
 }
 .chip-solid {
-  background:var(--ink);
-  color:var(--on-black)
+  background:#eda36ce0;
+  border:1px solid #d98a4f80;
+  color:#3d2410
 }
 .chip-quiet {
-  background:var(--bg-warm);
-  border:1px solid var(--line-strong);
-  color:var(--ink-2)
+  background:#f6c39b52;
+  border:1px solid #eda36c73;
+  color:#7a4a24
 }
 .chip-outline {
-  border:1.2px solid var(--line-strong);
-  color:var(--muted)
+  background:#f6c39b21;
+  border:1.2px solid #eda36c52;
+  color:#8a6242
 }
 .chip-live {
   color:#276f3f;
@@ -816,6 +820,9 @@ section {
 .work-feature-body .label {
   border-radius:var(--radius-full);
   background:var(--accent);
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+  box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
   height:30px;
   color:var(--on-accent);
   letter-spacing:.02em;
@@ -1025,6 +1032,9 @@ section {
 .panel-label {
   border-radius:var(--radius-full);
   background:var(--accent);
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+  box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
   height:32px;
   color:var(--on-accent);
   letter-spacing:.06em;
@@ -1242,6 +1252,9 @@ footer {
 .cs-label {
   border-radius:var(--radius-full);
   background:var(--accent);
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+  box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
   height:30px;
   color:var(--on-accent);
   letter-spacing:.06em;
