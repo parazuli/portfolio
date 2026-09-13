@@ -825,7 +825,7 @@ section {
 }
 .work-feature-body .label {
   border-radius:var(--radius-full);
-  background:var(--accent);
+  background:var(--feat-highlight);
   backdrop-filter:blur(6px);
   -webkit-backdrop-filter:blur(6px);
   box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
@@ -1258,7 +1258,7 @@ footer {
 }
 .cs-label {
   border-radius:var(--radius-full);
-  background:var(--accent);
+  background:var(--feat-highlight);
   backdrop-filter:blur(6px);
   -webkit-backdrop-filter:blur(6px);
   box-shadow:0 2px 6px -2px #7a441633,inset 0 1px 0 #ffffff66;
