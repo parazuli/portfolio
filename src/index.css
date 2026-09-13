@@ -323,7 +323,26 @@ body.nav-open,body.cs-open {
   align-items:center;
   gap:64px;
   padding:186px 0 120px;
+  position:relative;
   display:grid
+}
+.hero:before {
+  content:"";
+  background-image:linear-gradient(90deg,#13131312 1px,#0000 1px),linear-gradient(#13131312 1px,#0000 1px);
+  background-size:48px 48px;
+  -webkit-mask-image:radial-gradient(ellipse 68% 62% at 50% 46%,#000 0,#0009 42%,#0000 78%);
+  mask-image:radial-gradient(ellipse 68% 62% at 50% 46%,#000 0,#0009 42%,#0000 78%);
+  z-index:0;
+  position:absolute;
+  top:-150px;
+  bottom:-100px;
+  left:0;
+  right:0;
+  pointer-events:none
+}
+.hero-text,.hero-stack {
+  z-index:1;
+  position:relative
 }
 .hero>*,.about>*,.work-feature>*,.work-grid>*,.process-grid>*,.panel-grid>* {
   min-width:0
