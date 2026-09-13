@@ -352,7 +352,7 @@ body.nav-open,body.cs-open {
   text-transform:uppercase;
   font-size:clamp(50px,6.6vw,96px);
   font-style:italic;
-  font-weight:400;
+  font-weight:900;
   line-height:1.04
 }
 .hero h1 .line {
@@ -367,13 +367,25 @@ body.nav-open,body.cs-open {
   display:block
 }
 .hero-name {
-  max-width:32rem;
-  color:var(--muted);
-  letter-spacing:-.005em;
-  margin-top:28px;
-  font-size:clamp(16.5px,1.15vw,18.5px);
-  font-weight:500;
-  line-height:1.6
+  max-width:30rem;
+  color:var(--ink);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  align-items:flex-start;
+  gap:16px;
+  margin-top:32px;
+  font-size:clamp(13px,1vw,15px);
+  font-weight:700;
+  line-height:1.7;
+  display:flex
+}
+.hero-name:before {
+  content:"";
+  background:var(--ink);
+  flex:none;
+  width:52px;
+  height:2px;
+  margin-top:.78em
 }
 .hero-actions {
   flex-wrap:wrap;
@@ -1629,8 +1641,13 @@ footer {
     font-size:46px
   }
   .hero-name {
-    margin-top:22px;
-    font-size:16px
+    letter-spacing:.1em;
+    gap:12px;
+    margin-top:26px;
+    font-size:12px
+  }
+  .hero-name:before {
+    width:28px
   }
   .hero-actions {
     flex-direction:column;
