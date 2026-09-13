@@ -12,8 +12,8 @@
   --faint:#696660;
   --line:#13131317;
   --line-strong:#13131329;
-  --accent:#faf3d3;
-  --accent-deep:#f0e3ad;
+  --accent:#f5e9a8;
+  --accent-deep:#ecd97a;
   --on-accent:#131313;
   --black:#111110;
   --on-black:#f7f6f3;
@@ -465,6 +465,7 @@ body.nav-open,body.cs-open {
   align-items:center;
   gap:6px;
   height:24px;
+  box-shadow:0 1px 2px -1px #28221614;
   padding:0 11px;
   font-size:12px;
   font-weight:600;
@@ -475,13 +476,13 @@ body.nav-open,body.cs-open {
   color:var(--on-black)
 }
 .chip-quiet {
-  background:var(--bg-soft);
-  border:1px solid var(--line);
-  color:var(--muted)
+  background:var(--bg-warm);
+  border:1px solid var(--line-strong);
+  color:var(--ink-2)
 }
 .chip-outline {
-  border:1px solid var(--line-strong);
-  color:var(--faint)
+  border:1.2px solid var(--line-strong);
+  color:var(--muted)
 }
 .chip-live {
   color:#276f3f;
