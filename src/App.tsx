@@ -697,10 +697,12 @@ export default function App() {
                   <span className="img-year-badge">{featuredProject.year}</span>
                 </div>
                 <div className="work-feature-body">
-                  <span className="label">{featuredProject.tag}</span>
                   <p className="work-feature-name">{featuredProject.title}</p>
                   <h3>{featuredProject.headline}</h3>
-                  <p>{featuredProject.blurb}</p>
+                  <div className="work-feature-foot-row">
+                    <p>{featuredProject.blurb}</p>
+                    <span className="label">{featuredProject.tag}</span>
+                  </div>
                   <button
                     className="link-action"
                     type="button"
@@ -734,9 +736,11 @@ export default function App() {
                       <span className="img-year-badge">{p.year}</span>
                     </div>
                     <div className="work-tile-body">
-                      <span className={`chip ${p.chip}`}>{p.tag}</span>
                       <h3>{p.title}</h3>
-                      <p>{p.blurb}</p>
+                      <div className="work-tile-foot-row">
+                        <p>{p.blurb}</p>
+                        <span className={`chip ${p.chip}`}>{p.tag}</span>
+                      </div>
                     </div>
                   </article>
                 ))}
