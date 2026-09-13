@@ -1,0 +1,10 @@
+{
+  "description": "Enhance user engagement with a sleek, animated black panel featuring rounded corners that smoothly appears in the About section as users scroll.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
