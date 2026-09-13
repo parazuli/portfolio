@@ -180,7 +180,6 @@ export default function App() {
       headline: "Booking a flight shouldn't feel like three apps.",
       blurb:
         "An end to end audit of Nepal Airlines' booking flow, and a redesign direction that unifies three disconnected systems into one consistent experience.",
-      short: "A self-directed audit of a national carrier's booking flow.",
       img: nepalAirlinesImg,
       alt: "The Nepal Airlines website redesign, shown on a laptop with the homepage hero and flight search panel",
       logo: nepalAirlinesLogo,
