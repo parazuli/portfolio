@@ -679,9 +679,8 @@ export default function App() {
               <div className="section-head reveal">
                 <h2>Selected work</h2>
                 <p>
-                  One full case study, one hackathon build, and two
-                  self-directed practice projects, labelled for what they
-                  actually are.
+                  Good design {"doesn't"} shout. It just makes the next step
+                  obvious.
                 </p>
               </div>
               <article
@@ -751,9 +750,6 @@ export default function App() {
                   </article>
                 ))}
               </div>
-              <p className="work-note reveal">
-                Write-ups for these three are still in progress.
-              </p>
             </section>
 
             {/* ── Process ── */}
@@ -761,8 +757,8 @@ export default function App() {
               <div className="section-head reveal">
                 <h2>How I work</h2>
                 <p>
-                  Four steps, in order. The Nepal Airlines audit is the whole
-                  sequence run end to end on a real system.
+                  A simple process I return to for every project, from a
+                  hackathon sprint to a full audit.
                 </p>
               </div>
               <div className="process-grid">
@@ -785,8 +781,8 @@ export default function App() {
               <div className="section-head reveal">
                 <h2>What I do</h2>
                 <p>
-                  Four ways I usually get hired, across web, product, brand, and
-                  print.
+                  A few of the things I enjoy working on: web, product,
+                  brand, and print.
                 </p>
               </div>
               <div className="tabs reveal" role="tablist" aria-label="Services">

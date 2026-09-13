@@ -925,12 +925,6 @@ section {
   margin-top:14px;
   display:flex
 }
-.work-note {
-  text-align:center;
-  color:var(--faint);
-  margin-top:34px;
-  font-size:14.5px
-}
 .process-grid {
   grid-template-columns:repeat(4,1fr);
   gap:22px;
