@@ -328,10 +328,10 @@ body.nav-open,body.cs-open {
 }
 .hero:before {
   content:"";
-  background-image:linear-gradient(90deg,#13131317 1px,#0000 1px),linear-gradient(#13131317 1px,#0000 1px);
+  background-image:linear-gradient(90deg,#13131312 1px,#0000 1px),linear-gradient(#13131312 1px,#0000 1px);
   background-size:48px 48px;
-  -webkit-mask-image:radial-gradient(ellipse 72% 66% at 50% 46%,#0000 0,#0000 34%,#000a 64%,#000 88%,#0000 100%);
-  mask-image:radial-gradient(ellipse 72% 66% at 50% 46%,#0000 0,#0000 34%,#000a 64%,#000 88%,#0000 100%);
+  -webkit-mask-image:radial-gradient(ellipse 68% 62% at 50% 46%,#000 0,#0009 42%,#0000 78%);
+  mask-image:radial-gradient(ellipse 68% 62% at 50% 46%,#000 0,#0009 42%,#0000 78%);
   z-index:0;
   position:absolute;
   top:-150px;
