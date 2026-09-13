@@ -684,7 +684,7 @@ section {
 .about-photo {
   box-shadow:var(--shadow-card);
   background:var(--card);
-  aspect-ratio:16/9;
+  aspect-ratio:3/2;
   border-radius:28px;
   position:relative;
   overflow:hidden
@@ -1497,8 +1497,8 @@ footer {
     gap:44px
   }
   .about-photo {
-    aspect-ratio:16/9;
-    max-width:680px
+    aspect-ratio:3/2;
+    max-width:640px
   }
   .work-feature {
     grid-template-columns:1fr
