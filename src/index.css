@@ -1537,10 +1537,20 @@ footer {
     padding:80px 0
   }
   .hero {
-    padding:132px 0 24px
+    padding:132px 0 56px
+  }
+  .hero-stack,.about-photo {
+    display:none
   }
   .hero-actions {
     gap:12px
+  }
+  .work-feature-body {
+    padding:32px 24px
+  }
+  .work-feature-foot-row,.work-tile-foot-row {
+    flex-wrap:wrap;
+    gap:14px
   }
   .btn {
     height:52px;
@@ -1603,4 +1613,51 @@ footer {
     gap:8px
   }
 
+}
+@media (width<=480px) {
+  .container {
+    width:min(1240px,100% - 28px)
+  }
+  .hero {
+    padding:120px 0 44px
+  }
+  .hero h1 {
+    font-size:38px
+  }
+  .hero-sub {
+    margin-top:24px;
+    font-size:16px
+  }
+  .hero-actions {
+    flex-direction:column;
+    align-items:stretch;
+    margin-top:34px
+  }
+  .btn {
+    justify-content:center
+  }
+  .section-head h2,.about-copy h2,.contact-card h2 {
+    font-size:29px
+  }
+  .work-feature-body {
+    padding:28px 20px
+  }
+  .work-tile {
+    padding:12px
+  }
+  .contact-card {
+    border-radius:24px;
+    padding:48px 20px
+  }
+  .cs-panel {
+    border-radius:22px;
+    padding:38px 18px 44px
+  }
+  .cs-block blockquote {
+    padding:18px 16px;
+    font-size:16.5px
+  }
+  .fact {
+    padding:18px 20px
+  }
 }
