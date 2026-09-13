@@ -707,6 +707,7 @@ export default function App() {
                   <span className="label">
                     {featuredProject.tag} · {featuredProject.year}
                   </span>
+                  <p className="work-feature-name">{featuredProject.title}</p>
                   <h3>{featuredProject.headline}</h3>
                   <p>{featuredProject.blurb}</p>
                   <button
