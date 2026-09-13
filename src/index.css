@@ -323,7 +323,31 @@ body.nav-open,body.cs-open {
   align-items:center;
   gap:64px;
   padding:186px 0 120px;
+  position:relative;
   display:grid
+}
+.hero:before {
+  content:"";
+  background-image:repeating-linear-gradient(90deg,transparent 0 159px,#1313130a 159px 160px);
+  z-index:0;
+  position:absolute;
+  inset:0;
+  pointer-events:none
+}
+.hero:after {
+  content:"";
+  background:#13131324;
+  width:1px;
+  z-index:0;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:4%;
+  pointer-events:none
+}
+.hero-text,.hero-stack {
+  z-index:1;
+  position:relative
 }
 .hero>*,.about>*,.work-feature>*,.work-grid>*,.process-grid>*,.panel-grid>* {
   min-width:0
