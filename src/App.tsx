@@ -197,7 +197,7 @@ export default function App() {
       chip: "chip-quiet",
       practice: false,
       blurb:
-        "Ran design for MBMC IdeaX 2026 end to end: the event website, the visual identity, and every social post, banner, and poster that carried it. Not a submission. The design behind the event itself.",
+        "End-to-end design for MBMC IdeaX 2026, from the visual identity and event website to the social media, banners, and posters. I built the visual system that carried the event across every touchpoint.",
       img: ideaxWebImg,
       alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
@@ -212,7 +212,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "A blood bank concept built around one job: get a donor and a recipient matched fast. Search, request, and donate flows designed from a blank page, with UI and UX both mine.",
+        "Designed a blood bank platform from the ground up, built to make it faster and easier to connect donors with recipients. I handled the whole experience: search, requests, and donation flows, plus the UI design and UX strategy behind it, from concept to final interface.",
       img: livoraWebappImg,
       alt: "The Livora blood bank web app, showing the landing page and sign-in panel",
       logo: livoraLogo,
@@ -227,7 +227,7 @@ export default function App() {
       chip: "chip-outline",
       practice: true,
       blurb:
-        "Rebuilt Nabil Bank's everyday screens (splash, login, dashboard, fingerprint check, QR pay) around a calmer, card-based layout that gets out of the way faster.",
+        "Reimagined Nabil Bank's everyday banking experience around a calmer, card-based interface, simplifying the hierarchy and key interactions so everyday tasks feel clearer, faster, and more effortless.",
       img: nabilBankImg,
       alt: "Mobile app design mockups for a Nabil Bank banking app UI redesign, including splash, login, home, and scan-to-pay screens",
       logo: nabilLogo,
