@@ -20,6 +20,7 @@ import livoraWebappImg from "@/imports/livora-webapp.webp"
 import nabilBankImg from "@/imports/nabil-bank.webp"
 import nepalAirlinesLogo from "@/imports/nepal-airlines-logo.webp"
 import ideaxLogo from "@/imports/ideax-logo.png"
+import ideaxLogoHQ from "@/imports/ideax-logo-hq.png"
 import livoraLogo from "@/imports/livora-logo.png"
 import nabilLogo from "@/imports/nabil-logo.png"
 import logoMark from "@/imports/logo-mark.png"
@@ -191,23 +192,40 @@ export default function App() {
       logoAlt: "Nepal Airlines logo",
     },
     {
-      id: "ideax",
-      title: "IdeaX 2026",
-      meta: "Hackathon design lead: website, brand & social",
+      id: "ideax-web",
+      title: "IdeaX 2026 (UI/UX)",
+      meta: "Hackathon design lead: website interface",
       year: "2026",
       tag: "Hackathon",
       chip: "chip-quiet",
       practice: false,
       blurb:
-        "Led the visual direction, website interface, and brand identity for MBMC IdeaX 2026 across the website, social media, and print material.",
+        "Designed the website interface for MBMC IdeaX 2026, from information architecture to high-fidelity UI.",
       img: ideaxWebImg,
       alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
       logoAlt: "IdeaX 2026 logo",
+      link: "https://www.behance.net/gallery/256072947/UIUX-(Hackathon-Website)",
+    },
+    {
+      id: "ideax-brand",
+      title: "IdeaX 2026 (Brand Identity)",
+      meta: "Logo, posters, graphics & print",
+      year: "2026",
+      tag: "Hackathon",
+      chip: "chip-quiet",
+      practice: false,
+      blurb:
+        "Led the brand identity for MBMC IdeaX 2026, including logo, posters, graphics, and print material.",
+      img: ideaxLogoHQ,
+      alt: "The IdeaX 2026 logo",
+      logo: ideaxLogo,
+      logoAlt: "IdeaX 2026 logo",
+      link: "https://www.behance.net/gallery/253875633/IdeaX-Hackathon",
     },
     {
       id: "livora",
-      title: "Livora",
+      title: "Livora (Webapp UI/UX)",
       meta: "Blood donation & bank web app",
       year: "2026",
       tag: "Personal",
@@ -219,10 +237,11 @@ export default function App() {
       alt: "The Livora blood bank web app, showing the landing page and sign-in panel",
       logo: livoraLogo,
       logoAlt: "Livora logo",
+      link: "https://www.behance.net/gallery/253666311/Web-App-Design",
     },
     {
       id: "nabil-bank",
-      title: "Nabil Bank",
+      title: "Nabil Bank (Basic UI Redesign)",
       meta: "Mobile banking app UI redesign",
       year: "2026",
       tag: "Personal",
@@ -234,6 +253,7 @@ export default function App() {
       alt: "Mobile app design mockups for a Nabil Bank banking app UI redesign, including splash, login, home, and scan-to-pay screens",
       logo: nabilLogo,
       logoAlt: "Nabil Bank logo",
+      link: "https://www.behance.net/gallery/256073675/Mobile-Banking-(Basic-UI-redesign)",
     },
   ]
 
@@ -712,37 +732,43 @@ export default function App() {
                 </div>
               </article>
               <div className="work-grid">
-                {otherProjects.map((p, i) => (
-                  <article
-                    key={p.id}
-                    className={`work-tile reveal${
-                      p.practice ? " is-practice" : ""
-                    }`}
-                    style={{ "--delay": `${i * 0.07}s` } as React.CSSProperties}
-                  >
-                    <div
-                      className={`work-tile-img${
-                        p.id === "ideax" ? " tile-top" : ""
+                {otherProjects.map((p, i) => {
+                  const Tile = p.link ? "a" : "article"
+                  return (
+                    <Tile
+                      key={p.id}
+                      className={`work-tile reveal${
+                        p.practice ? " is-practice" : ""
                       }`}
+                      style={{ "--delay": `${i * 0.07}s` } as React.CSSProperties}
+                      {...(p.link
+                        ? { href: p.link, target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
                     >
-                      <img src={p.img} alt={p.alt} loading="lazy" />
-                      <span className="img-year-badge">{p.year}</span>
-                    </div>
-                    <div className="work-tile-body">
-                      <h3>{p.title}</h3>
-                      <p>{p.blurb}</p>
-                      <div className="work-tile-foot-row">
-                        <span className="link-action static">
-                          View work
-                          <span className="circle">
-                            <ArrowRight strokeWidth={2} />
-                          </span>
-                        </span>
-                        <span className={`chip ${p.chip}`}>{p.tag}</span>
+                      <div
+                        className={`work-tile-img${
+                          p.id === "ideax-web" ? " tile-top" : ""
+                        }`}
+                      >
+                        <img src={p.img} alt={p.alt} loading="lazy" />
+                        <span className="img-year-badge">{p.year}</span>
                       </div>
-                    </div>
-                  </article>
-                ))}
+                      <div className="work-tile-body">
+                        <h3>{p.title}</h3>
+                        <p>{p.blurb}</p>
+                        <div className="work-tile-foot-row">
+                          <span className="link-action static">
+                            View work
+                            <span className="circle">
+                              <ArrowRight strokeWidth={2} />
+                            </span>
+                          </span>
+                          <span className={`chip ${p.chip}`}>{p.tag}</span>
+                        </div>
+                      </div>
+                    </Tile>
+                  )
+                })}
               </div>
             </section>
 

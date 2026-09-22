@@ -838,7 +838,15 @@ section {
   box-shadow:var(--shadow-card);
   flex-direction:column;
   padding:16px;
-  display:flex
+  display:flex;
+  color:inherit;
+  text-decoration:none
+}
+a.work-tile {
+  cursor:pointer
+}
+a.work-tile .link-action.static {
+  cursor:pointer
 }
 .work-tile.is-practice {
   background:#ffffff9e;
