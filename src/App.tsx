@@ -544,10 +544,11 @@ export default function App() {
                   </a>
                   <a
                     className="btn btn-ghost"
-                    href="#contact"
-                    onClick={(e) => scrollToSection(e, "contact")}
+                    href="https://www.behance.net/gallery/256274353/Rohan-Parajuli-Portfolio-2026"
+                    target="_blank"
+                    rel="noopener"
                   >
-                    Get in touch
+                    View on Behance
                   </a>
                 </div>
               </div>
@@ -945,10 +946,10 @@ export default function App() {
                   </a>
                   <a
                     className="social-link"
-                    href="https://dribbble.com/rohan-parajuli"
+                    href="https://www.behance.net/gallery/256274353/Rohan-Parajuli-Portfolio-2026"
                     target="_blank"
                     rel="noopener"
-                    aria-label="Dribbble"
+                    aria-label="Behance"
                   >
                     <svg
                       viewBox="0 0 24 24"
@@ -960,9 +961,18 @@ export default function App() {
                       aria-hidden="true"
                     >
                       <circle cx="12" cy="12" r="8.5" />
-                      <path d="M4.5 9.5c3 1 12 1.2 15 0" />
-                      <path d="M8 4.5c2.5 3 4 8 3.3 15" />
-                      <path d="M20 15c-3-1.4-9-1-13 2.5" />
+                      <text
+                        x="12"
+                        y="15.5"
+                        textAnchor="middle"
+                        fontSize="9"
+                        fontWeight="700"
+                        fill="currentColor"
+                        stroke="none"
+                        fontFamily="sans-serif"
+                      >
+                        Be
+                      </text>
                     </svg>
                   </a>
                 </div>
