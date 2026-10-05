@@ -14,6 +14,7 @@ import {
   Mail,
 } from "lucide-react"
 import ideaxWebImg from "@/imports/ideax_web.webp"
+import socialPostersImg from "@/imports/social-media-posters.webp"
 import aboutIllustration from "@/imports/about-illustration.webp"
 import nepalAirlinesImg from "@/imports/nepal-airlines.webp"
 import livoraWebappImg from "@/imports/livora-webapp.webp"
@@ -190,6 +191,22 @@ export default function App() {
       alt: "The Nepal Airlines website redesign, shown on a laptop with the homepage hero and flight search panel",
       logo: nepalAirlinesLogo,
       logoAlt: "Nepal Airlines logo",
+    },
+    {
+      id: "social-posters",
+      title: "Graphic Design and Social Media Posters",
+      meta: "Event posters & social media campaigns",
+      year: "2026",
+      tag: "Graphic design",
+      chip: "chip-quiet",
+      practice: false,
+      blurb:
+        "Designed social media posters and campaign graphics, from countdowns to registration announcements.",
+      img: socialPostersImg,
+      alt: "A set of IdeaX 2026 social media posters shown alongside an Instagram post on a phone",
+      logo: ideaxLogo,
+      logoAlt: "IdeaX 2026 logo",
+      link: "https://www.behance.net/gallery/256274353/Rohan-Parajuli-Portfolio-2026",
     },
     {
       id: "ideax-web",
