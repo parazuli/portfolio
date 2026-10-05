@@ -432,6 +432,7 @@ body.nav-open,body.cs-open {
   background:var(--feat-highlight)
 }
 .wrow-thumb {
+  color:var(--ink);
   background:var(--card);
   border:1px solid var(--line);
   border-radius:14px;

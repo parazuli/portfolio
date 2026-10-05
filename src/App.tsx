@@ -204,8 +204,7 @@ export default function App() {
         "Designed social media posters and campaign graphics, from countdowns to registration announcements.",
       img: socialPostersImg,
       alt: "A set of IdeaX 2026 social media posters shown alongside an Instagram post on a phone",
-      logo: ideaxLogo,
-      logoAlt: "IdeaX 2026 logo",
+      icon: <PenTool size={22} strokeWidth={1.75} aria-hidden="true" />,
       link: "https://www.behance.net/gallery/256274353/Rohan-Parajuli-Portfolio-2026",
     },
     {
@@ -580,7 +579,9 @@ export default function App() {
                     const rowBody = (
                       <>
                         <span className="wrow-thumb">
-                          <img src={p.logo} alt={p.logoAlt} loading="lazy" />
+                          {p.icon ?? (
+                            <img src={p.logo} alt={p.logoAlt} loading="lazy" />
+                          )}
                         </span>
                         <span className="wrow-text">
                           <span className="wrow-title">{p.title}</span>
