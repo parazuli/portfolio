@@ -221,6 +221,7 @@ export default function App() {
       alt: "The IdeaX 2026 website design being reviewed on a tablet",
       logo: ideaxLogo,
       logoAlt: "IdeaX 2026 logo",
+      logoFill: true,
       link: "https://www.behance.net/gallery/256072947/UIUX-(Hackathon-Website)",
     },
     {
@@ -237,6 +238,7 @@ export default function App() {
       alt: "The IdeaX 2026 logo",
       logo: ideaxLogo,
       logoAlt: "IdeaX 2026 logo",
+      logoFill: true,
       link: "https://www.behance.net/gallery/253875633/IdeaX-Hackathon",
     },
     {
@@ -578,7 +580,11 @@ export default function App() {
                     const isFeatured = p.id === featuredProject.id
                     const rowBody = (
                       <>
-                        <span className="wrow-thumb">
+                        <span
+                          className={
+                            p.logoFill ? "wrow-thumb is-fill" : "wrow-thumb"
+                          }
+                        >
                           {p.icon ?? (
                             <img src={p.logo} alt={p.logoAlt} loading="lazy" />
                           )}
@@ -759,9 +765,15 @@ export default function App() {
                       className={`work-tile reveal${
                         p.practice ? " is-practice" : ""
                       }`}
-                      style={{ "--delay": `${i * 0.07}s` } as React.CSSProperties}
+                      style={
+                        { "--delay": `${i * 0.07}s` } as React.CSSProperties
+                      }
                       {...(p.link
-                        ? { href: p.link, target: "_blank", rel: "noopener noreferrer" }
+                        ? {
+                            href: p.link,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                          }
                         : {})}
                     >
                       <div
@@ -820,8 +832,8 @@ export default function App() {
               <div className="section-head reveal">
                 <h2>What I do</h2>
                 <p>
-                  A few of the things I enjoy working on: web, product,
-                  brand, and print.
+                  A few of the things I enjoy working on: web, product, brand,
+                  and print.
                 </p>
               </div>
               <div className="tabs reveal" role="tablist" aria-label="Services">

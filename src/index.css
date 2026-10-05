@@ -444,6 +444,12 @@ body.nav-open,body.cs-open {
   display:grid;
   overflow:hidden
 }
+.wrow-thumb.is-fill {
+  padding:0
+}
+.wrow-thumb.is-fill img {
+  object-fit:cover
+}
 .wrow-thumb img {
   object-fit:contain;
   width:100%;
